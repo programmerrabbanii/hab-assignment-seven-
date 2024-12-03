@@ -42,9 +42,9 @@ const BannarBottom = () => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">Incredibly Flexible</h2>
-          <p>Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.</p>
+          <p>Train an aiDR on an outbound patch, to nurture inbound leads or to reach out to your long tail of SMB customers at renewal time.</p>
           
-        </div>
+        </div> 
       </div>
     </div> 
    </div>
