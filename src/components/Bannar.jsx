@@ -2,9 +2,13 @@ import bannar from '../assets/bannar.jsx.jpeg';
 import { MdArrowOutward } from "react-icons/md";
 
 
+
+
+
+
 const Bannar = () => {
   return (
-    <div>
+   
      <div>
       <div
         className="hero min-h-screen"
@@ -20,7 +24,7 @@ const Bannar = () => {
             <h1 className="mb-5  text-[#0FF1F6]">
             AI SDRs (aiDRs)
             </h1> 
-            <h3 className="mb-5">
+            <h3 className="mb-5 text-3xl">
             <span className='font-semibold'>More </span>, leads 
             <h3> <span className='font-semibold '>less</span> people.</h3>
 
@@ -31,8 +35,24 @@ const Bannar = () => {
           </div>
         </div> 
       </div>
+       <section>
+        <div className='text-center bg-[#07292F] '>
+            <h3 className='uppercase text-[#0FF1F6]'>our trusted partners</h3>
+           
+                <div className=' grid items-center grid-cols-2 md:grid-cols-5 gap-4 w-11/12  mx-auto'>
+                    <img src={"https://i.ibb.co.com/NCgkXJm/Group.png"} alt="" />
+                    <img src={"https://i.ibb.co.com/gPK3S9n/1.png"} alt="" />
+                    <img src={"https://i.ibb.co.com/VDVZ5p2/AMD-logo.png"} alt="" />
+                    <img src={"https://i.ibb.co.com/k5sGpHF/Group.png"} alt="" /> 
+                    <img src={"https://i.ibb.co.com/gPK3S9n/1.png"} alt="" />
+
+                </div>
+            
+        </div>
+       </section>
+
     </div>
-    </div>
+    
   );
 };
 

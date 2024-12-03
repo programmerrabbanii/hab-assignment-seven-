@@ -1,17 +1,15 @@
- import navLogo from '../assets/navLogo.jpeg'
+ import navLogo from '../assets/Logo.png'
 import React from 'react';
 const Navbar = () => {
   return (
     <div >
       <div className="navbar bg-black shadow-md">
-        {/* Left: Side Logo */}
         <div className="flex-none">
           <img src={navLogo} alt="" />
         </div>
 
-        {/* Center: Links (Hidden on small devices) */}
         <div className="flex-1 hidden lg:flex justify-center">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-white">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -19,13 +17,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Right: Buttons */}
         <div className="flex-none hidden lg:flex">
-          <button className="btn btn-outline btn-primary mx-1">Login</button>
-          <button className="btn btn-primary mx-1">Sign Up</button>
+          <button className="bg-[#0FF1F6] py-2 px-6 rounded-full ml-3">Back a Demo</button>
+          <button className="rounded-full border px-6 py-2 text-white ml-2 ">Contact US</button>
         </div>
 
-        {/* Mobile Menu (Hamburger) */}
         <div className="lg:hidden">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -33,19 +29,19 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </label>
-            <ul tabIndex="0" className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <ul tabIndex="0" className="menu text-white menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="#About Us">About Us</a></li>
+              <li><a href="#Pricing">Pricing</a></li>
+              <li><a href="#Costumer">Coustomer</a></li> 
+              <li><a href="#Solutions">Solutions</a></li>
               <div className="divider"></div>
-              <li><button className="btn btn-outline btn-primary w-full my-1">Login</button></li>
-              <li><button className="btn btn-primary w-full my-1">Sign Up</button></li>
+              <li><button className=" bg-[#0FF1F6] w-full my-1">Back a Demo</button></li>
+              <li><button className="btn btn-primary w-full my-1">Contact Us</button></li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 

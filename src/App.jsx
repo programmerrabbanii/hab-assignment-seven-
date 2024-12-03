@@ -1,4 +1,5 @@
 import Bannar from './components/Bannar'
+import BannarBottom from './components/BannarBottom'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
      <Navbar></Navbar>
      <Bannar></Bannar>
+     <BannarBottom></BannarBottom>
     </>
   ) 
 }
