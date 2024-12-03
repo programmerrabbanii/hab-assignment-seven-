@@ -10,10 +10,10 @@ const Navbar = () => {
 
         <div className="flex-1 hidden lg:flex justify-center">
           <ul className="menu menu-horizontal px-1 text-white">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#About Us">About Us</a></li>
+              <li><a href="#Pricing">Pricing</a></li>
+              <li><a href="#Costumer">Coustomer</a></li> 
+              <li><a href="#Solutions">Solutions</a></li>
           </ul>
         </div>
 
