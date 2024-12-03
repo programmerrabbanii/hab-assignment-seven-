@@ -36,7 +36,7 @@ const Bannar = () => {
         </div> 
       </div>
        <section>
-        <div className='text-center bg-[#07292F] '>
+        <div className='text-center  '>
             <h3 className='uppercase text-[#0FF1F6]'>our trusted partners</h3>
            
                 <div className=' grid items-center grid-cols-2 md:grid-cols-5 gap-4 w-11/12  mx-auto'>

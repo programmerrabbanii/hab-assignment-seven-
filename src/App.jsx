@@ -9,7 +9,7 @@ import TrainYour from './components/TrainYour'
 
 function App() {
   return (
-    <>
+    <div className='bg-[#07292F]'>
      <Navbar></Navbar>
      <Bannar></Bannar>
      <BannarBottom></BannarBottom>
@@ -18,7 +18,7 @@ function App() {
      <Allocate></Allocate>
      <OutFound></OutFound>
      <Footer></Footer>
-    </> 
+    </div> 
   ) 
 }
 

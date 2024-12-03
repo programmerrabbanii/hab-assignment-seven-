@@ -3,7 +3,7 @@ import banarIn3 from '../assets/Vector.png'
 
 const BannarBottom = () => {
   return (
-   <div className='bg-[#002228]'>
+   <div >
      <div className='grid grid-cols-1 md:grid-cols-3 gap-5  w-11/12 mx-auto text-white '>
       <div className="p-5 card-compact mt-6">
         <figure>

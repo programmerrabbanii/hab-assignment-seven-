@@ -2,7 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const OutFound = () => {
     return (
-        <div className="text-center py-12 bg-[#002228]">
+        <div className="text-center py-12">
             <h2 className="text-[#0FF1F6]">GET STARTED</h2>
             <p className="text-white">Embrace <span className="font-bold">the new era of</span> outbound.</p>
             <p className="text-gray-50">Wizia lets you train, activate, and optimize aiDRs. <br /> 
