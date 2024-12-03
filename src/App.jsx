@@ -9,7 +9,7 @@ import TrainYour from './components/TrainYour'
 
 function App() {
   return (
-    <div className='bg-[#07292F]'>
+    <div className='bg-[#002228]'>
      <Navbar></Navbar>
      <Bannar></Bannar>
      <BannarBottom></BannarBottom>
